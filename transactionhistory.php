@@ -12,6 +12,7 @@
 <body>
 
 <?php
+/*Describes the information relation to a transaction after a successful completion of the same. */
   include 'navbar.php';
 ?>
 

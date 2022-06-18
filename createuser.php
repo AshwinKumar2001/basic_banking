@@ -12,6 +12,7 @@
 
 <body>
 <?php
+  /* Creating a new user (Adding new user to database) */
     include 'config.php';
     if(isset($_POST['submit'])){
     $name=$_POST['name'];

@@ -5,7 +5,7 @@
 	font-family: sans-serif;
 }
 .intro{
-	background: #EAF0F1;
+	background: #00d9ff;
 }
 h1{
 	color: #ff0000;
@@ -13,7 +13,7 @@ h1{
 	transition: 0.5s;
 }
 h3{
-	color:#006eff;
+	color:#d400ff;
 }
 button{
 	border:none;

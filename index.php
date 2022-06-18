@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/testyle.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
 
     <title>Basic Banking System</title>
@@ -15,6 +15,7 @@
 
   <body>
   <?php
+  /*The Home page*/
   include 'navbar.php';
   ?>
   

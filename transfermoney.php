@@ -21,6 +21,7 @@
 
 <body>
 <?php
+    /* Shows all the users who can transfer money*/
     include 'config.php';
     $sql = "SELECT * FROM users";
     $result = mysqli_query($conn,$sql);
@@ -55,7 +56,7 @@
                         <td class="py-2"><?php echo $rows['name']?></td>
                         <td class="py-2"><?php echo $rows['email']?></td>
                         <td class="py-2"><?php echo $rows['balance']?></td>
-                        <td><a href="selecteduserdetail.php?id= <?php echo $rows['id'] ;?>"> <button type="button" class="btn">Transact</button></a></td> 
+                        <td><a href="selecteduserdetail.php?id= <?php echo $rows['id'] ;?>"> <button type="button" class="btn">Transfer</button></a></td> 
                     </tr>
                 <?php
                     }
