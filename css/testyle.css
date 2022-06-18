@@ -13,14 +13,14 @@ h1{
 	transition: 0.5s;
 }
 h3{
-	color:#d400ff;
+	color:#ff0000;
 }
 button{
 	border:none;
 	border-radius: 8px;
 	padding: 10px;
-	background:#ff0000; 
-	color:rgb(255, 0, 0);
+	background:#00ff00; 
+	color:rgb(0, 0, 0);
 	letter-spacing: 1.5px;
 	font-size: 15px;
 	transition: 0.5s;
@@ -32,8 +32,8 @@ button:hover{
 	background-color:#7c4444;
 }
 footer{
-	color:#0f7ae4;
-	background-color:#e9791d;
+	color:#000000;
+	background-color:#00d9ff;
 	letter-spacing: 0.5px;
 }
 footer p{
