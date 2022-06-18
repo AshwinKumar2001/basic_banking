@@ -1,6 +1,6 @@
 <?php
 include 'config.php';
-/*Describes the working behind the money transfer from sender to receiver.*/
+/*Send money from sender to receiver.*/
 if(isset($_POST['submit']))
 {
     $from = $_GET['id'];
